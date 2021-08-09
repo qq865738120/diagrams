@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-09T06:37:03.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="ZcQ7Ag9Fao8VxN1a1009" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-09T06:55:19.339Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="r02Pve6F0K_NOlDoL_6l" version="14.9.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="959" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,8 +73,104 @@
         <mxCell id="QECgvXRe7AXAUNzWZ8xF-22" value="添加处方单流程" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="770" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-29" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QECgvXRe7AXAUNzWZ8xF-24" target="QECgvXRe7AXAUNzWZ8xF-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QECgvXRe7AXAUNzWZ8xF-24" value="下单" style="whiteSpace=wrap;html=1;shadow=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-34" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QECgvXRe7AXAUNzWZ8xF-28" target="QECgvXRe7AXAUNzWZ8xF-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-28" value="是否有是门店自提" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="1040" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-36" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QECgvXRe7AXAUNzWZ8xF-33" target="QECgvXRe7AXAUNzWZ8xF-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-33" value="选择优惠券流程" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-42" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QECgvXRe7AXAUNzWZ8xF-35" target="QECgvXRe7AXAUNzWZ8xF-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-35" value="选择支付方式" style="whiteSpace=wrap;html=1;shadow=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-47" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QECgvXRe7AXAUNzWZ8xF-41" target="QECgvXRe7AXAUNzWZ8xF-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-48" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" vertex="1" connectable="0" parent="QECgvXRe7AXAUNzWZ8xF-47">
+          <mxGeometry x="-0.4074" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-41" value="是否是在线支付" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="1480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-52" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QECgvXRe7AXAUNzWZ8xF-46" target="QECgvXRe7AXAUNzWZ8xF-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-53" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" vertex="1" connectable="0" parent="QECgvXRe7AXAUNzWZ8xF-52">
+          <mxGeometry x="-0.1721" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-46" value="是否使用了余额" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="1640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-62" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QECgvXRe7AXAUNzWZ8xF-51" target="QECgvXRe7AXAUNzWZ8xF-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-63" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" vertex="1" connectable="0" parent="QECgvXRe7AXAUNzWZ8xF-62">
+          <mxGeometry x="-0.2641" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-65" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QECgvXRe7AXAUNzWZ8xF-51" target="QECgvXRe7AXAUNzWZ8xF-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-51" value="是否设置了余额密码" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="1800" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-68" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QECgvXRe7AXAUNzWZ8xF-61" target="QECgvXRe7AXAUNzWZ8xF-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-61" value="输入余额密码" style="whiteSpace=wrap;html=1;shadow=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-66" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QECgvXRe7AXAUNzWZ8xF-64" target="QECgvXRe7AXAUNzWZ8xF-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="2000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="2000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-64" value="设置余额密码流程" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-71" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QECgvXRe7AXAUNzWZ8xF-67" target="QECgvXRe7AXAUNzWZ8xF-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-72" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" vertex="1" connectable="0" parent="QECgvXRe7AXAUNzWZ8xF-71">
+          <mxGeometry x="-0.1426" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-74" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QECgvXRe7AXAUNzWZ8xF-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="2000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="2140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-67" value="密码是否正确" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="2100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-70" value="是否是全额余额支付" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="2260" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
