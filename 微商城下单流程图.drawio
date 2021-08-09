@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-09T06:55:19.339Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="r02Pve6F0K_NOlDoL_6l" version="14.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-09T07:02:51.885Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="gxlg3oOOvYdiV3mXDqMa" version="14.9.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="959" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1184" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -116,6 +116,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-84" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QECgvXRe7AXAUNzWZ8xF-46" target="QECgvXRe7AXAUNzWZ8xF-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="2290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-86" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" vertex="1" connectable="0" parent="QECgvXRe7AXAUNzWZ8xF-84">
+          <mxGeometry x="-0.821" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QECgvXRe7AXAUNzWZ8xF-46" value="是否使用了余额" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="1640" width="80" height="80" as="geometry" />
         </mxCell>
@@ -166,11 +176,46 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-75" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" vertex="1" connectable="0" parent="QECgvXRe7AXAUNzWZ8xF-74">
+          <mxGeometry x="0.0582" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QECgvXRe7AXAUNzWZ8xF-67" value="密码是否正确" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="2100" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-77" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QECgvXRe7AXAUNzWZ8xF-70" target="QECgvXRe7AXAUNzWZ8xF-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-78" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" vertex="1" connectable="0" parent="QECgvXRe7AXAUNzWZ8xF-77">
+          <mxGeometry x="-0.2902" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-82" value="" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QECgvXRe7AXAUNzWZ8xF-70" target="QECgvXRe7AXAUNzWZ8xF-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-83" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" vertex="1" connectable="0" parent="QECgvXRe7AXAUNzWZ8xF-82">
+          <mxGeometry x="-0.2216" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QECgvXRe7AXAUNzWZ8xF-70" value="是否是全额余额支付" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="2260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-76" value="支付结果" style="whiteSpace=wrap;html=1;shadow=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="2430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-87" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QECgvXRe7AXAUNzWZ8xF-81" target="QECgvXRe7AXAUNzWZ8xF-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="2520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="2460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QECgvXRe7AXAUNzWZ8xF-81" value="微信/医保支付流程" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;shadow=0;fontColor=#46495D;strokeColor=#788AA3;strokeWidth=1;fillColor=#B2C9AB;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="2270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
