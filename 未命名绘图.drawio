@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-09T03:05:01.782Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="J9bHRaKlUvoAcUzTuyw_" version="17.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-09T03:17:35.607Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Bff7FSa43GXG9ULHlvh8" version="17.0.0" type="github">
   <diagram id="HSfGDlyhOGmyIHZ94gBn" name="第 1 页">
     <mxGraphModel dx="888" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,6 +100,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="xD_pPmzMON3R3X_e0m8q-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="xD_pPmzMON3R3X_e0m8q-36" target="xD_pPmzMON3R3X_e0m8q-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xD_pPmzMON3R3X_e0m8q-52" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="xD_pPmzMON3R3X_e0m8q-51">
+          <mxGeometry x="-0.14" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xD_pPmzMON3R3X_e0m8q-36" value="判断configEnv字段是否与当前构建环境相同" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;rounded=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="1110" y="390" width="160" height="150" as="geometry" />
         </mxCell>
@@ -107,10 +115,47 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xD_pPmzMON3R3X_e0m8q-45" value="缓存未命中" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;rounded=1;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="665" width="120" height="60" as="geometry" />
+          <mxGeometry x="1130" y="715" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xD_pPmzMON3R3X_e0m8q-48" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;rounded=1;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="805" width="120" height="60" as="geometry" />
+          <mxGeometry x="1130" y="1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xD_pPmzMON3R3X_e0m8q-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="xD_pPmzMON3R3X_e0m8q-50" target="xD_pPmzMON3R3X_e0m8q-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xD_pPmzMON3R3X_e0m8q-50" value="读取缓存文件内容cacheObj" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xD_pPmzMON3R3X_e0m8q-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="xD_pPmzMON3R3X_e0m8q-53" target="xD_pPmzMON3R3X_e0m8q-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xD_pPmzMON3R3X_e0m8q-53" value="搜索查询全部页面pages" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="575" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xD_pPmzMON3R3X_e0m8q-60" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="xD_pPmzMON3R3X_e0m8q-55" target="xD_pPmzMON3R3X_e0m8q-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xD_pPmzMON3R3X_e0m8q-61" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="xD_pPmzMON3R3X_e0m8q-60">
+          <mxGeometry x="-0.0286" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD_pPmzMON3R3X_e0m8q-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="xD_pPmzMON3R3X_e0m8q-55" target="xD_pPmzMON3R3X_e0m8q-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xD_pPmzMON3R3X_e0m8q-64" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="xD_pPmzMON3R3X_e0m8q-63">
+          <mxGeometry x="-0.1222" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xD_pPmzMON3R3X_e0m8q-55" value="pages是否全部有对应的缓存" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="705" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xD_pPmzMON3R3X_e0m8q-65" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="xD_pPmzMON3R3X_e0m8q-62" target="xD_pPmzMON3R3X_e0m8q-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xD_pPmzMON3R3X_e0m8q-62" value="缓存命中" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1;rounded=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="875" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
